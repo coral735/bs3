@@ -6,7 +6,7 @@
 	<link href="http://fonts.googleapis.com/earlyaccess/notosanskr.css?family=Gothic+A1" rel="stylesheet"> 
 	<link rel="stylesheet" href="font.css">
 	<link rel="stylesheet" type="text/css" href="normalize.css"> 
-
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<style>
 		* {margin: 0; padding: 0;}
 		body{font-family: 'Noto Sans KR', sans-serif; background:white;}
@@ -15,11 +15,13 @@
 		h1{ font-size:2.3em; position: absolute; line-height: 1.5;  font-weight:900;}
 		div{margin:auto; position:relative; width:1400px;}
 
+	.img{margin:0; padding:0; width:490px; height:300px; position: absolute; background-size:100% auto;}
+	.texts{display: block; width: 400px; background: none; position: absolute; padding:1em;}
 /*-------------------------------------------------------------------------------------------------------------------*/
 
 		a:link, a:active, a:visited {text-decoration: none; color:black;}
 		ul, ol, li {list-style: none;}
-		#contents1 nav { width:1400px;   height:180px; position:absolute; top:703px; left:130px;  }
+		#contents1 nav { width:1400px;   height:180px; position:absolute; top:705px; left:130px;  }
 		
 		#title { position:relative; text-align:center; top:50px; left:-25px; font-weight: bold; font-size:2.5em;  }
 		
@@ -37,7 +39,7 @@
 /*-------------------------------------------------------------------------------------------------------------------*/
 
 		.wrap{ width:1400px; margin:auto; position: relative; }
-
+		img {position : absolute;}
 		#contents1 { background: url('./img/3.jpg') no-repeat 50% 50%; background-size:100%  margin:0 auto; height:4940px; }
 	
 
@@ -84,6 +86,18 @@
 		#contents1 #h7 {top:4835px; left:630px; font-size:1.3em; line-height: 1.4; font-weight: 400; color:#f2a338; text-align:center; }
 		#contents1 #h8 {top:4855px; left:540px; font-size:2.7em; line-height: 1.4; font-weight: 700; color:#f2a338; text-align:center;}
 		
+
+		#contents1 #i1 {top:1180px; left:70px;}
+		#contents1 #i2 {top:1020px; left:710px;}
+		#contents1 #i3 {top:1350px; left:70px;}
+		#contents1 #i4 {top:1500px; left:710px;}
+		#contents1 #i5 {top:1720px; left:70px;}
+		#contents1 #i6 {top:1880px; left:710px;}
+		#contents1 #i7 {top:2250px; left:70px;}
+		#contents1 #i8 {top:2080px; left:710px;}		
+		#contents1 #i9 {top:2585px; left:90px;}
+		#contents1 #i10 {top:2430px; left:680px;}		
+		
 		.clear{clear:both;}
 	
 	</style>	
@@ -124,7 +138,7 @@
 
 		</nav>
 			
-			<h1 id="h1">알고 먹으면 더 맛있는</h1>
+			<h1 id="h1">알고 먹으면 <b>더</b> 맛있는</h1>
 			<h1 id="h2">세계&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;의 대표 빵</h1>
 			<h1 id="h3">곳곳</h1>
 		
@@ -134,6 +148,11 @@
  				친숙한 빵들부터 시작해서 이제껏 접하지 못해본 빵까지, 지금 소개하려고 한다. <br>
  			</p>
 		
+
+
+			<div id="i1">
+				<img src="./img/1.png">
+			</div>
 			<p id="p2">
 				[일본] 고로케 
  			</p>
@@ -144,16 +163,30 @@
 				빵가루를 입혀 바삭하게 튀겨낸 일본 음식이다.<br>
  			</p>
 
+
+
+
+
+			<div id="i2">
+				<img src="./img/2.png">
+			</div>
 			<p id="p4">
 				[일본] 단팥빵 
  			</p>
-
  			<p id="p5">
 				안빵은 우리나라에서 단팥빵 또는 팥앙금빵이라 <br>
 				불리는 빵으로 일본에서 처음 만들어졌다. <br>
 				빵 안에 팥고물이 들어 있는 평평하고 둥근 원형의 빵.<br>
  			</p>	
 
+
+
+
+
+
+			<div id="i4">
+				<img src="./img/4.png">
+			</div>
  			<p id="p8">
 				[미국] 도넛
  			</p>
@@ -164,6 +197,14 @@
 				링 모양으로 만들어 기름에 튀긴 빵이다.
  			</p>	
 
+
+
+
+
+
+			<div id="i3">
+				<img src="./img/3.png">
+			</div>
  			 <p id="p6">
 				[미국] 베이글
  			</p>
@@ -174,6 +215,16 @@
 				조직이 치밀해서 쫄깃하면서도 씹는 맛이 독특하다.<br>
  			</p>	
 
+
+
+
+
+
+
+
+			<div id="i6">
+				<img src="./img/6.png">
+			</div>
  			 <p id="p10">
 				[프랑스] 크루아상
  			</p>
@@ -184,6 +235,15 @@
 				겉은 파삭하고 속은 부드러운 식감이 특징이다. 
  			</p>	
 
+
+
+
+
+
+
+			<div id="i5">
+				<img src="./img/5.png">
+			</div>
  			 <p id="p12">
 				[프랑스] 바게트
  			</p>
@@ -194,6 +254,14 @@
 				부드럽고 폭신한 것이 특징이다.
  			</p>
 
+
+
+
+
+
+			<div id="i7">
+				<img src="./img/7.png">
+			</div>
  			<p id="p14">
 				[인도] 난
  			</p>
@@ -204,6 +272,15 @@
 				 이용해 만들며 눈물 혹은 잎사귀 모양을 하고 있다. 
  			</p>	
 
+
+
+
+
+
+
+			<div id="i8">
+				<img src="./img/8.png">
+			</div>
  			 <p id="p16">
 				[영국] 머핀
  			</p>
@@ -214,6 +291,15 @@
 				영국에서는 아침식사나 3시의 티타임에 주로 먹는다.
  			</p>	
 
+
+
+
+
+
+
+			<div id="i9">
+				<img src="./img/9.png">
+			</div>
  			<p id="p18">
 				[독일] 프레첼
  			</p>
@@ -225,6 +311,15 @@
  
  			</p>	
 
+
+
+
+
+
+
+			<div id="i10">
+				<img src="./img/10.png">
+			</div>
  			<p id="p20">
 				[중국] 화쥐안
  			</p>
@@ -235,6 +330,11 @@
 				모양의 밀가루 빵이다.
  
  			</p>
+
+
+
+ 	
+
 
  			<h1 id="h7">거기 배고픈 너,</h>
 			<h1 id="h8">빵은 먹고 다니니?</h>	
@@ -249,7 +349,6 @@
 
 		</div>
 	</footer>
-
 
 
 </body>
